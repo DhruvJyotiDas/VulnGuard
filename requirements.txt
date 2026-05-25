@@ -1,0 +1,18 @@
+# Install PyTorch SEPARATELY for ROCm — do NOT pip install plain torch (that pulls CUDA).
+# MI300X / ROCm 6.x:
+#   pip install --index-url https://download.pytorch.org/whl/rocm6.2 torch
+# then:
+#   pip install -e .
+#   pip install -e ".[explain,adversarial]"   # captum + tree-sitter
+transformers>=4.40
+datasets>=2.18
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14
+scipy>=1.10
+tqdm>=4.66
+# optional:
+captum>=0.7
+tree-sitter>=0.21
+tree-sitter-languages>=1.10
