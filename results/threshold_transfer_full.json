@@ -1,0 +1,5562 @@
+{
+  "codebert": {
+    "runs": [
+      {
+        "fold": 0,
+        "seed": 0,
+        "n_train": 34099,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.9991832375526428,
+        "thr_oracle": 0.3605031669139862,
+        "thr_gap": 0.6386800706386566,
+        "f1_fixed_05": 0.744435612082671,
+        "f1_source": 0.5240506329113924,
+        "f1_oracle": 0.745756020529017,
+        "f1_gap": 0.2217053876176246,
+        "recall_source": 0.3568965517241379,
+        "recall_oracle": 0.6513793103448275,
+        "precision_source": 0.9857142857142858,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.2217053876176246,
+        "per_project_f1_gap_max": 0.2217053876176246,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 1,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.3605031669139862,
+            "f1_at_source_thr": 0.5240506329113924,
+            "f1_at_project_oracle": 0.745756020529017,
+            "f1_gap": 0.2217053876176246
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 1,
+        "seed": 0,
+        "n_train": 91734,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.907312273979187,
+        "thr_oracle": 0.9924227595329285,
+        "thr_gap": 0.08511048555374146,
+        "f1_fixed_05": 0.8717375093214019,
+        "f1_source": 0.8802736602052451,
+        "f1_oracle": 0.8835249042145594,
+        "f1_gap": 0.0032512440093143136,
+        "recall_source": 0.8052851182197497,
+        "recall_oracle": 0.8018080667593881,
+        "precision_source": 0.9706621961441744,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.0032512440093143136,
+        "per_project_f1_gap_max": 0.0032512440093143136,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9924227595329285,
+            "f1_at_source_thr": 0.8802736602052451,
+            "f1_at_project_oracle": 0.8835249042145594,
+            "f1_gap": 0.0032512440093143136
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 2,
+        "seed": 0,
+        "n_train": 112964,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09335923273036299,
+        "thr_source": 0.957912266254425,
+        "thr_oracle": 0.9975656270980835,
+        "thr_gap": 0.03965336084365845,
+        "f1_fixed_05": 0.49422442244224424,
+        "f1_source": 0.5166778598612044,
+        "f1_oracle": 0.637537239324727,
+        "f1_gap": 0.12085937946352254,
+        "recall_source": 0.7503250975292588,
+        "recall_oracle": 0.6261378413524057,
+        "precision_source": 0.39399112325025604,
+        "per_project_thr_std": 0.4074020651767306,
+        "per_project_f1_gap_mean": 0.06308290226898751,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 13,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.9130584001541138,
+            "f1_at_source_thr": 0.8397790055248618,
+            "f1_at_project_oracle": 0.8494623655913979,
+            "f1_gap": 0.009683360066536029
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9983769655227661,
+            "f1_at_source_thr": 0.414229725655713,
+            "f1_at_project_oracle": 0.5644171779141104,
+            "f1_gap": 0.1501874522583974
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.9964619278907776,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9994725584983826,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9993638396263123,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.7272727272727273,
+            "f1_gap": 0.06060606060606066
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.010248602367937565,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.33333333333333337
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.012821213342249393,
+            "f1_at_source_thr": 0.47058823529411764,
+            "f1_at_project_oracle": 0.7619047619047619,
+            "f1_gap": 0.2913165266106442
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.6176279783248901,
+            "f1_at_source_thr": 0.5,
+            "f1_at_project_oracle": 0.5882352941176471,
+            "f1_gap": 0.08823529411764708
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.9968273043632507,
+            "f1_at_source_thr": 0.75,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.9810219407081604,
+            "f1_at_source_thr": 0.7777777777777778,
+            "f1_at_project_oracle": 0.7777777777777778,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.9983769655227661,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.9953181147575378,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.1428571428571429
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.9671630263328552,
+            "f1_at_source_thr": 0.9192546583850931,
+            "f1_at_project_oracle": 0.925,
+            "f1_gap": 0.005745341614906918
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.9992563128471375,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.9981897473335266,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9967774748802185,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.039342500269412994,
+            "f1_at_source_thr": 0.9142857142857143,
+            "f1_at_project_oracle": 0.918918918918919,
+            "f1_gap": 0.004633204633204713
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.013848611153662205,
+            "f1_at_source_thr": 0.5517241379310345,
+            "f1_at_project_oracle": 0.6153846153846154,
+            "f1_gap": 0.06366047745358094
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.9941800832748413,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "file",
+            "n": 216,
+            "vuln_rate": 0.1388888888888889,
+            "thr_optimal": 0.10158944129943848,
+            "f1_at_source_thr": 0.8461538461538461,
+            "f1_at_project_oracle": 0.8771929824561403,
+            "f1_gap": 0.031039136302294157
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 3,
+        "seed": 0,
+        "n_train": 117635,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.05354215989801493,
+        "thr_source": 0.9883127808570862,
+        "thr_oracle": 0.9820137619972229,
+        "thr_gap": 0.006299018859863281,
+        "f1_fixed_05": 0.8220858895705522,
+        "f1_source": 0.8325907065563335,
+        "f1_oracle": 0.83617963314358,
+        "f1_gap": 0.0035889265872465215,
+        "recall_source": 0.7414965986394558,
+        "recall_oracle": 0.7494331065759637,
+        "precision_source": 0.9492017416545718,
+        "per_project_thr_std": 0.3743692117765081,
+        "per_project_f1_gap_mean": 0.04513040864801919,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 56,
+        "n_projects_with_gap_gt_01": 11,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.9979493021965027,
+            "f1_at_source_thr": 0.8636363636363636,
+            "f1_at_project_oracle": 0.8636363636363636,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.9990600943565369,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.9997305274009705,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.9994207620620728,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.9952448010444641,
+            "f1_at_source_thr": 0.7796610169491526,
+            "f1_at_project_oracle": 0.7796610169491526,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.9982725381851196,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.9973269701004028,
+            "f1_at_source_thr": 0.6491228070175439,
+            "f1_at_project_oracle": 0.6605504587155964,
+            "f1_gap": 0.011427651698052488
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.2351084053516388,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.875,
+            "f1_gap": 0.1607142857142857
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.9908744096755981,
+            "f1_at_source_thr": 0.8484848484848485,
+            "f1_at_project_oracle": 0.8536585365853658,
+            "f1_gap": 0.005173688100517326
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.999220609664917,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9995044469833374,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.16026602685451508,
+            "f1_at_source_thr": 0.8947368421052632,
+            "f1_at_project_oracle": 0.9,
+            "f1_gap": 0.0052631578947368585
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.9997219443321228,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9966233968734741,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9997040629386902,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.996570348739624,
+            "f1_at_source_thr": 0.9166666666666666,
+            "f1_at_project_oracle": 0.9166666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.9921841025352478,
+            "f1_at_source_thr": 0.9629629629629629,
+            "f1_at_project_oracle": 0.9629629629629629,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9985449314117432,
+            "f1_at_source_thr": 0.8461538461538461,
+            "f1_at_project_oracle": 0.88,
+            "f1_gap": 0.03384615384615386
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.01798621006309986,
+            "f1_at_source_thr": 0.7083333333333334,
+            "f1_at_project_oracle": 0.7397260273972602,
+            "f1_gap": 0.03139269406392686
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.723700225353241,
+            "f1_at_source_thr": 0.8978328173374613,
+            "f1_at_project_oracle": 0.918429003021148,
+            "f1_gap": 0.020596185683686707
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 4,
+        "seed": 0,
+        "n_train": 117107,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0681721605050689,
+        "thr_source": 0.9778834581375122,
+        "thr_oracle": 0.9643214344978333,
+        "thr_gap": 0.013562023639678955,
+        "f1_fixed_05": 0.7156652360515021,
+        "f1_source": 0.7201327433628318,
+        "f1_oracle": 0.7223749312809236,
+        "f1_gap": 0.0022421879180917204,
+        "recall_source": 0.5796972395369546,
+        "recall_oracle": 0.585040071237756,
+        "precision_source": 0.9503649635036496,
+        "per_project_thr_std": 0.3872462271447824,
+        "per_project_f1_gap_mean": 0.0444400065857347,
+        "per_project_f1_gap_max": 0.6,
+        "n_projects_evaluated": 64,
+        "n_projects_with_gap_gt_01": 7,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9997305274009705,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9994296431541443,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.9987550973892212,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.05494505494505497
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.035678546875715256,
+            "f1_at_source_thr": 0.6947368421052632,
+            "f1_at_project_oracle": 0.7403846153846154,
+            "f1_gap": 0.04564777327935221
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.9925393462181091,
+            "f1_at_source_thr": 0.7346938775510204,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9996849298477173,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.9998089671134949,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.9994471669197083,
+            "f1_at_source_thr": 0.4,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.2666666666666666
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9997965693473816,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.996292769908905,
+            "f1_at_source_thr": 0.6742857142857143,
+            "f1_at_project_oracle": 0.7125,
+            "f1_gap": 0.038214285714285756
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.09982066601514816,
+            "f1_at_source_thr": 0.8292682926829268,
+            "f1_at_project_oracle": 0.8837209302325582,
+            "f1_gap": 0.054452637549631366
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.9989350438117981,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.9843363761901855,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.9947799444198608,
+            "f1_at_source_thr": 0.8085106382978723,
+            "f1_at_project_oracle": 0.8085106382978723,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.9997901320457458,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.004264634568244219,
+            "f1_at_source_thr": 0.5367647058823529,
+            "f1_at_project_oracle": 0.568075117370892,
+            "f1_gap": 0.03131041148853908
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9993013143539429,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.5928728580474854,
+            "f1_at_source_thr": 0.9411764705882353,
+            "f1_at_project_oracle": 0.9473684210526315,
+            "f1_gap": 0.006191950464396245
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.9717789888381958,
+            "f1_at_source_thr": 0.9411764705882353,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.05882352941176472
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.9814534187316895,
+            "f1_at_source_thr": 0.7086614173228346,
+            "f1_at_project_oracle": 0.7086614173228346,
+            "f1_gap": 0.0
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 0,
+        "seed": 1,
+        "n_train": 77102,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.29746994376182556,
+        "thr_oracle": 0.9921841025352478,
+        "thr_gap": 0.6947141587734222,
+        "f1_fixed_05": 0.5843507214206437,
+        "f1_source": 0.5665110073382255,
+        "f1_oracle": 0.6770080747981301,
+        "f1_gap": 0.11049706745990462,
+        "recall_source": 0.7320689655172414,
+        "recall_oracle": 0.5493103448275862,
+        "precision_source": 0.4620239390642002,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.11049706745990462,
+        "per_project_f1_gap_max": 0.11049706745990462,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 1,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.9921841025352478,
+            "f1_at_source_thr": 0.5665110073382255,
+            "f1_at_project_oracle": 0.6770080747981301,
+            "f1_gap": 0.11049706745990462
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 1,
+        "seed": 1,
+        "n_train": 90986,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.8365545868873596,
+        "thr_oracle": 0.9801293015480042,
+        "thr_gap": 0.14357471466064453,
+        "f1_fixed_05": 0.8761329305135952,
+        "f1_source": 0.8797564687975646,
+        "f1_oracle": 0.8816545384909996,
+        "f1_gap": 0.0018980696934349783,
+        "recall_source": 0.803894297635605,
+        "recall_oracle": 0.8004172461752433,
+        "precision_source": 0.9714285714285714,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.0018980696934349783,
+        "per_project_f1_gap_max": 0.0018980696934349783,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9801293015480042,
+            "f1_at_source_thr": 0.8797564687975646,
+            "f1_at_project_oracle": 0.8816545384909996,
+            "f1_gap": 0.0018980696934349783
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 2,
+        "seed": 1,
+        "n_train": 114227,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09323782930678645,
+        "thr_source": 0.15662017464637756,
+        "thr_oracle": 0.9968273043632507,
+        "thr_gap": 0.8402071297168732,
+        "f1_fixed_05": 0.5061700695535113,
+        "f1_source": 0.49345071934721924,
+        "f1_oracle": 0.6213324128408698,
+        "f1_gap": 0.12788169349365058,
+        "recall_source": 0.748046875,
+        "recall_oracle": 0.5859375,
+        "precision_source": 0.3681512335789811,
+        "per_project_thr_std": 0.40779973647895296,
+        "per_project_f1_gap_mean": 0.04063692245409492,
+        "per_project_f1_gap_max": 0.38888888888888895,
+        "n_projects_evaluated": 57,
+        "n_projects_with_gap_gt_01": 7,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.28656837344169617,
+            "f1_at_source_thr": 0.8181818181818182,
+            "f1_at_project_oracle": 0.8228571428571428,
+            "f1_gap": 0.00467532467532461
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9981030225753784,
+            "f1_at_source_thr": 0.3891117478510029,
+            "f1_at_project_oracle": 0.5522914218566393,
+            "f1_gap": 0.16317967400563638
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.9977481961250305,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9994887113571167,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9976769089698792,
+            "f1_at_source_thr": 0.6153846153846154,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.05128205128205121
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.9991169571876526,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.012431650422513485,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.13333333333333341
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.9901401400566101,
+            "f1_at_source_thr": 0.8292682926829268,
+            "f1_at_project_oracle": 0.8292682926829268,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.9449946880340576,
+            "f1_at_source_thr": 0.5294117647058824,
+            "f1_at_project_oracle": 0.5625,
+            "f1_gap": 0.03308823529411764
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.9924227595329285,
+            "f1_at_source_thr": 0.75,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.9958011507987976,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.7058823529411765,
+            "f1_gap": 0.03921568627450989
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.9975656270980835,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.275909423828125,
+            "f1_at_source_thr": 0.9375,
+            "f1_at_project_oracle": 0.9375,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.9989350438117981,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.9918121099472046,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9970190525054932,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.02178117260336876,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.9230769230769231,
+            "f1_gap": 0.03418803418803429
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.9591543078422546,
+            "f1_at_source_thr": 0.6857142857142857,
+            "f1_at_project_oracle": 0.7272727272727273,
+            "f1_gap": 0.04155844155844157
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.9978172779083252,
+            "f1_at_source_thr": 0.625,
+            "f1_at_project_oracle": 0.7142857142857143,
+            "f1_gap": 0.0892857142857143
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.9993435740470886,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 3,
+        "seed": 1,
+        "n_train": 118048,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.054392035451951676,
+        "thr_source": 0.9946150183677673,
+        "thr_oracle": 0.9788748621940613,
+        "thr_gap": 0.015740156173706055,
+        "f1_fixed_05": 0.8201090248334343,
+        "f1_source": 0.8131443298969072,
+        "f1_oracle": 0.8276729559748428,
+        "f1_gap": 0.014528626077935591,
+        "recall_source": 0.7042410714285714,
+        "recall_oracle": 0.734375,
+        "precision_source": 0.961890243902439,
+        "per_project_thr_std": 0.37947827387245214,
+        "per_project_f1_gap_mean": 0.07419093954331041,
+        "per_project_f1_gap_max": 0.6666666666666667,
+        "n_projects_evaluated": 63,
+        "n_projects_with_gap_gt_01": 14,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.26133090257644653,
+            "f1_at_source_thr": 0.8372093023255814,
+            "f1_at_project_oracle": 0.851063829787234,
+            "f1_gap": 0.01385452746165261
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.9990745782852173,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.9996373653411865,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.9992678761482239,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.9938070178031921,
+            "f1_at_source_thr": 0.7863247863247863,
+            "f1_at_project_oracle": 0.7899159663865546,
+            "f1_gap": 0.0035911800617682843
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9996898174285889,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.999373733997345,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.9980121850967407,
+            "f1_at_source_thr": 0.6428571428571429,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.023809523809523725
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.05707139894366264,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7894736842105263,
+            "f1_gap": 0.07518796992481203
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.8311430811882019,
+            "f1_at_source_thr": 0.8076923076923077,
+            "f1_at_project_oracle": 0.8322981366459627,
+            "f1_gap": 0.02460582895365504
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.9981613755226135,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9996373653411865,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.8140527606010437,
+            "f1_at_source_thr": 0.8947368421052632,
+            "f1_at_project_oracle": 0.9230769230769231,
+            "f1_gap": 0.028340080971659964
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9788748621940613,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.08571428571428574
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9992792010307312,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.24077458679676056,
+            "f1_at_source_thr": 0.8181818181818182,
+            "f1_at_project_oracle": 0.96,
+            "f1_gap": 0.14181818181818173
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.5749915242195129,
+            "f1_at_source_thr": 0.88,
+            "f1_at_project_oracle": 0.9629629629629629,
+            "f1_gap": 0.0829629629629629
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9979493021965027,
+            "f1_at_source_thr": 0.8461538461538461,
+            "f1_at_project_oracle": 0.88,
+            "f1_gap": 0.03384615384615386
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.9736446738243103,
+            "f1_at_source_thr": 0.5365853658536586,
+            "f1_at_project_oracle": 0.6808510638297872,
+            "f1_gap": 0.14426569797612865
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.04535257816314697,
+            "f1_at_source_thr": 0.8909657320872274,
+            "f1_at_project_oracle": 0.9203539823008849,
+            "f1_gap": 0.02938825021365754
+          }
+        ],
+        "model": "codebert"
+      },
+      {
+        "fold": 4,
+        "seed": 1,
+        "n_train": 26959,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0674436957445517,
+        "thr_source": 0.9959298968315125,
+        "thr_oracle": 0.9949396848678589,
+        "thr_gap": 0.0009902119636535645,
+        "f1_fixed_05": 0.661498708010336,
+        "f1_source": 0.6611374407582938,
+        "f1_oracle": 0.6755813953488372,
+        "f1_gap": 0.014443954590543373,
+        "recall_source": 0.5022502250225023,
+        "recall_oracle": 0.5229522952295229,
+        "precision_source": 0.9670710571923743,
+        "per_project_thr_std": 0.4389389863316397,
+        "per_project_f1_gap_mean": 0.0766385443718433,
+        "per_project_f1_gap_max": 0.6666666666666666,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 14,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9974491000175476,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9971103668212891,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.9974491000175476,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.047074176371097565,
+            "f1_at_source_thr": 0.6914893617021277,
+            "f1_at_project_oracle": 0.7727272727272727,
+            "f1_gap": 0.081237911025145
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.9899086952209473,
+            "f1_at_source_thr": 0.6808510638297872,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.05384281372123323
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.9981324076652527,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9978843331336975,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.09138209372758865,
+            "f1_at_source_thr": 0.6577181208053692,
+            "f1_at_project_oracle": 0.7553191489361702,
+            "f1_gap": 0.09760102813080107
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.997285008430481,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.9966756105422974,
+            "f1_at_source_thr": 0.7058823529411765,
+            "f1_at_project_oracle": 0.7058823529411765,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.11240509152412415,
+            "f1_at_source_thr": 0.8823529411764706,
+            "f1_at_project_oracle": 0.9230769230769231,
+            "f1_gap": 0.040723981900452566
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.996292769908905,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.9910145401954651,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7956989247311828,
+            "f1_gap": 0.02646815550041348
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.014728614129126072,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.03076923076923077
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.011331753805279732,
+            "f1_at_source_thr": 0.35684647302904565,
+            "f1_at_project_oracle": 0.635593220338983,
+            "f1_gap": 0.27874674730993737
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9976403713226318,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.11904761904761907
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.9960545301437378,
+            "f1_at_source_thr": 0.75,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.9971550703048706,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.9411764705882353,
+            "f1_gap": 0.05228758169934644
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.6145097017288208,
+            "f1_at_source_thr": 0.6341463414634146,
+            "f1_at_project_oracle": 0.65625,
+            "f1_gap": 0.022103658536585358
+          },
+          {
+            "project": "postgres",
+            "n": 339,
+            "vuln_rate": 0.06784660766961652,
+            "thr_optimal": 0.9949396848678589,
+            "f1_at_source_thr": 0.9545454545454546,
+            "f1_at_project_oracle": 0.9777777777777777,
+            "f1_gap": 0.02323232323232316
+          }
+        ],
+        "model": "codebert"
+      }
+    ],
+    "summary": {
+      "mean_f1_gap": 0.06208965369112688,
+      "ci95": [
+        0.01813170117540095,
+        0.11278173577732505
+      ],
+      "mean_f1_at_source": 0.6887725569035219,
+      "mean_per_project_gap": 0.06814714926522686,
+      "n_runs": 10
+    }
+  },
+  "codebert_cs": {
+    "runs": [
+      {
+        "fold": 0,
+        "seed": 0,
+        "n_train": 34099,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.9993928670883179,
+        "thr_oracle": 0.7732163667678833,
+        "thr_gap": 0.22617650032043457,
+        "f1_fixed_05": 0.7301038062283737,
+        "f1_source": 0.7006558070657922,
+        "f1_oracle": 0.7321637426900585,
+        "f1_gap": 0.03150793562426624,
+        "recall_source": 0.5710344827586207,
+        "recall_oracle": 0.6475862068965518,
+        "precision_source": 0.9064039408866995,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.03150793562426624,
+        "per_project_f1_gap_max": 0.03150793562426624,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.7732163667678833,
+            "f1_at_source_thr": 0.7006558070657922,
+            "f1_at_project_oracle": 0.7321637426900585,
+            "f1_gap": 0.03150793562426624
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 1,
+        "seed": 0,
+        "n_train": 91734,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.9898303151130676,
+        "thr_oracle": 0.9935117363929749,
+        "thr_gap": 0.0036814212799072266,
+        "f1_fixed_05": 0.8607500928332714,
+        "f1_source": 0.8751431844215349,
+        "f1_oracle": 0.8760520275439939,
+        "f1_gap": 0.0009088431224589799,
+        "recall_source": 0.7969401947148818,
+        "recall_oracle": 0.7962447844228094,
+        "precision_source": 0.9703640982218459,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.0009088431224589799,
+        "per_project_f1_gap_max": 0.0009088431224589799,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9935117363929749,
+            "f1_at_source_thr": 0.8751431844215349,
+            "f1_at_project_oracle": 0.8760520275439939,
+            "f1_gap": 0.0009088431224589799
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 2,
+        "seed": 0,
+        "n_train": 112964,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09335923273036299,
+        "thr_source": 0.9399133324623108,
+        "thr_oracle": 0.999438464641571,
+        "thr_gap": 0.059525132179260254,
+        "f1_fixed_05": 0.5543071161048689,
+        "f1_source": 0.5784042285426629,
+        "f1_oracle": 0.6728144596090003,
+        "f1_gap": 0.09441023106633739,
+        "recall_source": 0.747074122236671,
+        "recall_oracle": 0.5929778933680104,
+        "precision_source": 0.47186858316221764,
+        "per_project_thr_std": 0.40729673025498864,
+        "per_project_f1_gap_mean": 0.05010615843108211,
+        "per_project_f1_gap_max": 0.4,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 13,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.9972423315048218,
+            "f1_at_source_thr": 0.8144329896907216,
+            "f1_at_project_oracle": 0.8461538461538461,
+            "f1_gap": 0.0317208564631245
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9996750354766846,
+            "f1_at_source_thr": 0.48152134912091854,
+            "f1_at_project_oracle": 0.6222537207654146,
+            "f1_gap": 0.1407323716444961
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.9907320141792297,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9999008178710938,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9997695088386536,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.7272727272727273,
+            "f1_gap": 0.06060606060606066
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.024237636476755142,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.13333333333333341
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.11879339814186096,
+            "f1_at_source_thr": 0.631578947368421,
+            "f1_at_project_oracle": 0.7,
+            "f1_gap": 0.06842105263157894
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.9907320141792297,
+            "f1_at_source_thr": 0.6060606060606061,
+            "f1_at_project_oracle": 0.6060606060606061,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.9994471669197083,
+            "f1_at_source_thr": 0.5714285714285714,
+            "f1_at_project_oracle": 0.5714285714285714,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.9988664388656616,
+            "f1_at_source_thr": 0.7058823529411765,
+            "f1_at_project_oracle": 0.7058823529411765,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.9997507929801941,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.9989995360374451,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.1428571428571429
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.9736446738243103,
+            "f1_at_source_thr": 0.9299363057324841,
+            "f1_at_project_oracle": 0.9299363057324841,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.9998511075973511,
+            "f1_at_source_thr": 0.5,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.16666666666666663
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.9991832375526428,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9960545301437378,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.06656918674707413,
+            "f1_at_source_thr": 0.9444444444444444,
+            "f1_at_project_oracle": 0.9473684210526315,
+            "f1_gap": 0.0029239766081871066
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.061875976622104645,
+            "f1_at_source_thr": 0.4444444444444444,
+            "f1_at_project_oracle": 0.5945945945945946,
+            "f1_gap": 0.1501501501501502
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.046378206461668015,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.08571428571428574
+          },
+          {
+            "project": "file",
+            "n": 216,
+            "vuln_rate": 0.1388888888888889,
+            "thr_optimal": 0.9979493021965027,
+            "f1_at_source_thr": 0.8727272727272727,
+            "f1_at_project_oracle": 0.8727272727272727,
+            "f1_gap": 0.0
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 3,
+        "seed": 0,
+        "n_train": 117635,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.05354215989801493,
+        "thr_source": 0.9926542043685913,
+        "thr_oracle": 0.980728805065155,
+        "thr_gap": 0.01192539930343628,
+        "f1_fixed_05": 0.8158673771462404,
+        "f1_source": 0.8297604035308953,
+        "f1_oracle": 0.8331242158092849,
+        "f1_gap": 0.003363812278389555,
+        "recall_source": 0.746031746031746,
+        "recall_oracle": 0.7528344671201814,
+        "precision_source": 0.9346590909090909,
+        "per_project_thr_std": 0.37834417407871496,
+        "per_project_f1_gap_mean": 0.058779915356997926,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 56,
+        "n_projects_with_gap_gt_01": 11,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.8936811685562134,
+            "f1_at_source_thr": 0.8444444444444444,
+            "f1_at_project_oracle": 0.8695652173913043,
+            "f1_gap": 0.02512077294685988
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.999713122844696,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.9997546076774597,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.9998313188552856,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.9955315589904785,
+            "f1_at_source_thr": 0.7704918032786885,
+            "f1_at_project_oracle": 0.7833333333333333,
+            "f1_gap": 0.012841530054644834
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.9996373653411865,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.9994725584983826,
+            "f1_at_source_thr": 0.6608695652173913,
+            "f1_at_project_oracle": 0.6788990825688074,
+            "f1_gap": 0.018029517351416113
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.07949569821357727,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.022556390977443552
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.9985221028327942,
+            "f1_at_source_thr": 0.8192771084337349,
+            "f1_at_project_oracle": 0.8271604938271605,
+            "f1_gap": 0.00788338539342559
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.9997175335884094,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9998205304145813,
+            "f1_at_source_thr": 0.7272727272727273,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.2727272727272727
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.9066531658172607,
+            "f1_at_source_thr": 0.8947368421052632,
+            "f1_at_project_oracle": 0.9230769230769231,
+            "f1_gap": 0.028340080971659964
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.999783456325531,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9996316432952881,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9998464584350586,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.9867772459983826,
+            "f1_at_source_thr": 0.8695652173913043,
+            "f1_at_project_oracle": 0.9166666666666666,
+            "f1_gap": 0.047101449275362306
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.9928786158561707,
+            "f1_at_source_thr": 0.9285714285714286,
+            "f1_at_project_oracle": 0.9285714285714286,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9996259212493896,
+            "f1_at_source_thr": 0.8354430379746836,
+            "f1_at_project_oracle": 0.88,
+            "f1_gap": 0.04455696202531645
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.6829967498779297,
+            "f1_at_source_thr": 0.6808510638297872,
+            "f1_at_project_oracle": 0.72,
+            "f1_gap": 0.039148936170212756
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.8423450589179993,
+            "f1_at_source_thr": 0.9240121580547113,
+            "f1_at_project_oracle": 0.924924924924925,
+            "f1_gap": 0.0009127668702136882
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 4,
+        "seed": 0,
+        "n_train": 117107,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0681721605050689,
+        "thr_source": 0.9859364032745361,
+        "thr_oracle": 0.985496461391449,
+        "thr_gap": 0.0004399418830871582,
+        "f1_fixed_05": 0.7109947643979058,
+        "f1_source": 0.725,
+        "f1_oracle": 0.7256925583921782,
+        "f1_gap": 0.0006925583921781886,
+        "recall_source": 0.5939447907390917,
+        "recall_oracle": 0.5948352626892253,
+        "precision_source": 0.9302649930264993,
+        "per_project_thr_std": 0.38441287700461174,
+        "per_project_f1_gap_mean": 0.04683857477361079,
+        "per_project_f1_gap_max": 0.47619047619047616,
+        "n_projects_evaluated": 64,
+        "n_projects_with_gap_gt_01": 10,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9997901320457458,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9998260140419006,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.9994471669197083,
+            "f1_at_source_thr": 0.5882352941176471,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.1809954751131222
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.09203285723924637,
+            "f1_at_source_thr": 0.7083333333333334,
+            "f1_at_project_oracle": 0.7487684729064039,
+            "f1_gap": 0.040435139573070544
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.9995827078819275,
+            "f1_at_source_thr": 0.7346938775510204,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9998557567596436,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.9998511075973511,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.999783456325531,
+            "f1_at_source_thr": 0.3333333333333333,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.3333333333333333
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9998028874397278,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.9968273043632507,
+            "f1_at_source_thr": 0.6703910614525139,
+            "f1_at_project_oracle": 0.6741573033707865,
+            "f1_gap": 0.0037662419182725726
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.9986541271209717,
+            "f1_at_source_thr": 0.8837209302325582,
+            "f1_at_project_oracle": 0.8837209302325582,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.999783456325531,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.9984752535820007,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.9964063763618469,
+            "f1_at_source_thr": 0.8125,
+            "f1_at_project_oracle": 0.8125,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.9998028874397278,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.007460643071681261,
+            "f1_at_source_thr": 0.5527272727272727,
+            "f1_at_project_oracle": 0.6226912928759895,
+            "f1_gap": 0.06996402014871672
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9998148083686829,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.9991573095321655,
+            "f1_at_source_thr": 0.9473684210526315,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.052631578947368474
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.9997085928916931,
+            "f1_at_source_thr": 0.9411764705882353,
+            "f1_at_project_oracle": 0.9411764705882353,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.9959927201271057,
+            "f1_at_source_thr": 0.7076923076923077,
+            "f1_at_project_oracle": 0.71875,
+            "f1_gap": 0.011057692307692268
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 0,
+        "seed": 1,
+        "n_train": 77102,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.9934101700782776,
+        "thr_oracle": 0.9988120794296265,
+        "thr_gap": 0.005401909351348877,
+        "f1_fixed_05": 0.6315467075038285,
+        "f1_source": 0.6843120070113935,
+        "f1_oracle": 0.6999421853921758,
+        "f1_gap": 0.01563017838078229,
+        "recall_source": 0.6731034482758621,
+        "recall_oracle": 0.6262068965517241,
+        "precision_source": 0.6959001782531195,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.01563017838078229,
+        "per_project_f1_gap_max": 0.01563017838078229,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.9988120794296265,
+            "f1_at_source_thr": 0.6843120070113935,
+            "f1_at_project_oracle": 0.6999421853921758,
+            "f1_gap": 0.01563017838078229
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 1,
+        "seed": 1,
+        "n_train": 90986,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.986151397228241,
+        "thr_oracle": 0.9964619278907776,
+        "thr_gap": 0.010310530662536621,
+        "f1_fixed_05": 0.8669877732493516,
+        "f1_source": 0.875951293759513,
+        "f1_oracle": 0.8781047000382117,
+        "f1_gap": 0.002153406278698755,
+        "recall_source": 0.8004172461752433,
+        "recall_oracle": 0.7990264255910987,
+        "precision_source": 0.9672268907563025,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.002153406278698755,
+        "per_project_f1_gap_max": 0.002153406278698755,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9964619278907776,
+            "f1_at_source_thr": 0.875951293759513,
+            "f1_at_project_oracle": 0.8781047000382117,
+            "f1_gap": 0.002153406278698755
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 2,
+        "seed": 1,
+        "n_train": 114227,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09323782930678645,
+        "thr_source": 0.6356749534606934,
+        "thr_oracle": 0.9980121850967407,
+        "thr_gap": 0.36233723163604736,
+        "f1_fixed_05": 0.5798845043310876,
+        "f1_source": 0.5847127555988315,
+        "f1_oracle": 0.6278260869565218,
+        "f1_gap": 0.04311333135769024,
+        "recall_source": 0.7819010416666666,
+        "recall_oracle": 0.705078125,
+        "precision_source": 0.46695178849144636,
+        "per_project_thr_std": 0.3951710963206783,
+        "per_project_f1_gap_mean": 0.04407720156736479,
+        "per_project_f1_gap_max": 0.33333333333333337,
+        "n_projects_evaluated": 57,
+        "n_projects_with_gap_gt_01": 10,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.9974090456962585,
+            "f1_at_source_thr": 0.8247422680412371,
+            "f1_at_project_oracle": 0.8351648351648352,
+            "f1_gap": 0.010422567123598125
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9980121850967407,
+            "f1_at_source_thr": 0.4858523119392685,
+            "f1_at_project_oracle": 0.5410752688172042,
+            "f1_gap": 0.05522295687793577
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.9995197057723999,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9999251365661621,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9998977184295654,
+            "f1_at_source_thr": 0.6153846153846154,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.05128205128205121
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.9998910427093506,
+            "f1_at_source_thr": 0.3333333333333333,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.3333333333333333
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9999203681945801,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.9930961728096008,
+            "f1_at_source_thr": 0.8636363636363636,
+            "f1_at_project_oracle": 0.8837209302325582,
+            "f1_gap": 0.02008456659619451
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.7714993357658386,
+            "f1_at_source_thr": 0.5882352941176471,
+            "f1_at_project_oracle": 0.5882352941176471,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.18713267147541046,
+            "f1_at_source_thr": 0.75,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.13888888888888884
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.8918110132217407,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.998245358467102,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.586167573928833,
+            "f1_at_source_thr": 0.9259259259259259,
+            "f1_at_project_oracle": 0.926829268292683,
+            "f1_gap": 0.0009033423667570428
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.9999097585678101,
+            "f1_at_source_thr": 0.5,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.16666666666666663
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.9991306662559509,
+            "f1_at_source_thr": 0.9629629629629629,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.03703703703703709
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9981030225753784,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.9989836812019348,
+            "f1_at_source_thr": 0.9142857142857143,
+            "f1_at_project_oracle": 0.9142857142857143,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.7862948179244995,
+            "f1_at_source_thr": 0.8108108108108109,
+            "f1_at_project_oracle": 0.8108108108108109,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.10743748396635056,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.08571428571428574
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.9999151229858398,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 3,
+        "seed": 1,
+        "n_train": 118048,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.054392035451951676,
+        "thr_source": 0.9851576089859009,
+        "thr_oracle": 0.997065007686615,
+        "thr_gap": 0.011907398700714111,
+        "f1_fixed_05": 0.8191616766467066,
+        "f1_source": 0.8331257783312578,
+        "f1_oracle": 0.8357457520453115,
+        "f1_gap": 0.0026199737140537582,
+        "recall_source": 0.7466517857142857,
+        "recall_oracle": 0.7410714285714286,
+        "precision_source": 0.9422535211267605,
+        "per_project_thr_std": 0.35911190120750797,
+        "per_project_f1_gap_mean": 0.043153291453729314,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 63,
+        "n_projects_with_gap_gt_01": 11,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.8778960704803467,
+            "f1_at_source_thr": 0.8444444444444444,
+            "f1_at_project_oracle": 0.8695652173913043,
+            "f1_gap": 0.02512077294685988
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.9997085928916931,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.9998365640640259,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.9996898174285889,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.995866060256958,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9998464584350586,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.999595582485199,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.9996699094772339,
+            "f1_at_source_thr": 0.6434782608695652,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.023188405797101463
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.9525741338729858,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7333333333333333,
+            "f1_gap": 0.01904761904761898
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.998217761516571,
+            "f1_at_source_thr": 0.8518518518518519,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.005291005291005235
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.9891815781593323,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9998028874397278,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.11111111111111116
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.9988120794296265,
+            "f1_at_source_thr": 0.8095238095238095,
+            "f1_at_project_oracle": 0.8947368421052632,
+            "f1_gap": 0.08521303258145363
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.99935382604599,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9998205304145813,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.06560483574867249,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.05555555555555547
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.9529258608818054,
+            "f1_at_source_thr": 0.9230769230769231,
+            "f1_at_project_oracle": 0.9629629629629629,
+            "f1_gap": 0.03988603988603978
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9992563128471375,
+            "f1_at_source_thr": 0.825,
+            "f1_at_project_oracle": 0.868421052631579,
+            "f1_gap": 0.04342105263157903
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.9845753908157349,
+            "f1_at_source_thr": 0.7083333333333334,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.026360544217687076
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.14560063183307648,
+            "f1_at_source_thr": 0.9146341463414634,
+            "f1_at_project_oracle": 0.9221556886227545,
+            "f1_gap": 0.007521542281291094
+          }
+        ],
+        "model": "codebert_cs"
+      },
+      {
+        "fold": 4,
+        "seed": 1,
+        "n_train": 26959,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0674436957445517,
+        "thr_source": 0.9994115829467773,
+        "thr_oracle": 0.9988664388656616,
+        "thr_gap": 0.0005451440811157227,
+        "f1_fixed_05": 0.6450048496605237,
+        "f1_source": 0.6445103857566765,
+        "f1_oracle": 0.6655443322109988,
+        "f1_gap": 0.021033946454322328,
+        "recall_source": 0.48874887488748875,
+        "recall_oracle": 0.5337533753375338,
+        "precision_source": 0.945993031358885,
+        "per_project_thr_std": 0.38444212487898716,
+        "per_project_f1_gap_mean": 0.11788471843164454,
+        "per_project_f1_gap_max": 0.8,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 22,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9995891451835632,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9994725584983826,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.9994966983795166,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.02931223064661026,
+            "f1_at_source_thr": 0.6774193548387096,
+            "f1_at_project_oracle": 0.7550200803212851,
+            "f1_gap": 0.07760072548257546
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.2901756465435028,
+            "f1_at_source_thr": 0.6808510638297872,
+            "f1_at_project_oracle": 0.76,
+            "f1_gap": 0.07914893617021279
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.999562680721283,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9993928670883179,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.33333333333333337
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.32380759716033936,
+            "f1_at_source_thr": 0.6845637583892618,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.06543624161073824
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.9995121955871582,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.9993333220481873,
+            "f1_at_source_thr": 0.42857142857142855,
+            "f1_at_project_oracle": 0.7058823529411765,
+            "f1_gap": 0.27731092436974797
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.2598256468772888,
+            "f1_at_source_thr": 0.7333333333333333,
+            "f1_at_project_oracle": 0.9743589743589743,
+            "f1_gap": 0.24102564102564106
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.9992327690124512,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.974628746509552,
+            "f1_at_source_thr": 0.7126436781609196,
+            "f1_at_project_oracle": 0.7872340425531915,
+            "f1_gap": 0.07459036439227196
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.9995761513710022,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.033085983246564865,
+            "f1_at_source_thr": 0.3836734693877551,
+            "f1_at_project_oracle": 0.6857142857142857,
+            "f1_gap": 0.3020408163265306
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9995417594909668,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.9993638396263123,
+            "f1_at_source_thr": 0.875,
+            "f1_at_project_oracle": 0.9411764705882353,
+            "f1_gap": 0.06617647058823528
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.9992563128471375,
+            "f1_at_source_thr": 0.875,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.125
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.620276689529419,
+            "f1_at_source_thr": 0.639344262295082,
+            "f1_at_project_oracle": 0.696969696969697,
+            "f1_gap": 0.057625434674615006
+          },
+          {
+            "project": "postgres",
+            "n": 339,
+            "vuln_rate": 0.06784660766961652,
+            "thr_optimal": 0.9828232526779175,
+            "f1_at_source_thr": 0.9302325581395349,
+            "f1_at_project_oracle": 0.9777777777777777,
+            "f1_gap": 0.047545219638242875
+          }
+        ],
+        "model": "codebert_cs"
+      }
+    ],
+    "summary": {
+      "mean_f1_gap": 0.02154342166691777,
+      "ci95": [
+        0.0066991349434426545,
+        0.04059532642527293
+      ],
+      "mean_f1_at_source": 0.7331575844018559,
+      "mean_per_project_gap": 0.041104022342063576,
+      "n_runs": 10
+    }
+  },
+  "graphcodebert": {
+    "runs": [
+      {
+        "fold": 0,
+        "seed": 0,
+        "n_train": 34099,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.995866060256958,
+        "thr_oracle": 0.1672186702489853,
+        "thr_gap": 0.8286473900079727,
+        "f1_fixed_05": 0.7676576405983715,
+        "f1_source": 0.7086546700942588,
+        "f1_oracle": 0.770779934090077,
+        "f1_gap": 0.06212526399581819,
+        "recall_source": 0.5703448275862069,
+        "recall_oracle": 0.7258620689655172,
+        "precision_source": 0.9355203619909502,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.06212526399581819,
+        "per_project_f1_gap_max": 0.06212526399581819,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.1672186702489853,
+            "f1_at_source_thr": 0.7086546700942588,
+            "f1_at_project_oracle": 0.770779934090077,
+            "f1_gap": 0.06212526399581819
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 1,
+        "seed": 0,
+        "n_train": 91734,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.7988152503967285,
+        "thr_oracle": 0.9848109483718872,
+        "thr_gap": 0.1859956979751587,
+        "f1_fixed_05": 0.8203508771929825,
+        "f1_source": 0.8295454545454546,
+        "f1_oracle": 0.8824648155192089,
+        "f1_gap": 0.05291936097375427,
+        "recall_source": 0.8122392211404729,
+        "recall_oracle": 0.8066759388038943,
+        "precision_source": 0.8476052249637155,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.05291936097375427,
+        "per_project_f1_gap_max": 0.05291936097375427,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9848109483718872,
+            "f1_at_source_thr": 0.8295454545454546,
+            "f1_at_project_oracle": 0.8824648155192089,
+            "f1_gap": 0.05291936097375427
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 2,
+        "seed": 0,
+        "n_train": 112964,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09335923273036299,
+        "thr_source": 0.8816148638725281,
+        "thr_oracle": 0.9954615235328674,
+        "thr_gap": 0.11384665966033936,
+        "f1_fixed_05": 0.6616058394160584,
+        "f1_source": 0.7080867850098619,
+        "f1_oracle": 0.774317570165321,
+        "f1_gap": 0.0662307851554591,
+        "recall_source": 0.7002600780234071,
+        "recall_oracle": 0.6547464239271782,
+        "precision_source": 0.7160904255319149,
+        "per_project_thr_std": 0.411678370801026,
+        "per_project_f1_gap_mean": 0.07713621663161499,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 19,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.9777138829231262,
+            "f1_at_source_thr": 0.8586956521739131,
+            "f1_at_project_oracle": 0.8681318681318682,
+            "f1_gap": 0.009436215957955074
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9954615235328674,
+            "f1_at_source_thr": 0.645877378435518,
+            "f1_at_project_oracle": 0.7575962187711006,
+            "f1_gap": 0.11171884033558266
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.954308032989502,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9996485710144043,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9994115829467773,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9995827078819275,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.06705627590417862,
+            "f1_at_source_thr": 0.47058823529411764,
+            "f1_at_project_oracle": 0.7619047619047619,
+            "f1_gap": 0.2913165266106442
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.06142403930425644,
+            "f1_at_source_thr": 0.5294117647058824,
+            "f1_at_project_oracle": 0.5777777777777777,
+            "f1_gap": 0.048366013071895364
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.04304284602403641,
+            "f1_at_source_thr": 0.5714285714285714,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.1785714285714286
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.9988120794296265,
+            "f1_at_source_thr": 0.7777777777777778,
+            "f1_at_project_oracle": 0.7777777777777778,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.9968763589859009,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.9982993006706238,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.1428571428571429
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.9984269142150879,
+            "f1_at_source_thr": 0.906832298136646,
+            "f1_at_project_oracle": 0.9271523178807947,
+            "f1_gap": 0.020320019744148654
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.999562680721283,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.996570348739624,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9946150183677673,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.11124120652675629,
+            "f1_at_source_thr": 0.9142857142857143,
+            "f1_at_project_oracle": 0.972972972972973,
+            "f1_gap": 0.05868725868725877
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.18624302744865417,
+            "f1_at_source_thr": 0.5185185185185185,
+            "f1_at_project_oracle": 0.6451612903225806,
+            "f1_gap": 0.12664277180406214
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.9976032376289368,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.05494505494505497
+          },
+          {
+            "project": "file",
+            "n": 216,
+            "vuln_rate": 0.1388888888888889,
+            "thr_optimal": 0.5824910998344421,
+            "f1_at_source_thr": 0.8461538461538461,
+            "f1_at_project_oracle": 0.8727272727272727,
+            "f1_gap": 0.02657342657342654
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 3,
+        "seed": 0,
+        "n_train": 117635,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.05354215989801493,
+        "thr_source": 0.9838472008705139,
+        "thr_oracle": 0.9815951585769653,
+        "thr_gap": 0.002252042293548584,
+        "f1_fixed_05": 0.8147706968433591,
+        "f1_source": 0.8288060644346178,
+        "f1_oracle": 0.831758034026465,
+        "f1_gap": 0.002951969591847181,
+        "recall_source": 0.7437641723356009,
+        "recall_oracle": 0.7482993197278912,
+        "precision_source": 0.9358059914407989,
+        "per_project_thr_std": 0.32224126031388584,
+        "per_project_f1_gap_mean": 0.05189758160956041,
+        "per_project_f1_gap_max": 0.6666666666666666,
+        "n_projects_evaluated": 56,
+        "n_projects_with_gap_gt_01": 10,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.9983515739440918,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.999480664730072,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.9991832375526428,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.5535920262336731,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.7412996292114258,
+            "f1_at_source_thr": 0.7796610169491526,
+            "f1_at_project_oracle": 0.7833333333333333,
+            "f1_gap": 0.0036723163841807516
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.9994207620620728,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.998498797416687,
+            "f1_at_source_thr": 0.6324786324786325,
+            "f1_at_project_oracle": 0.6605504587155964,
+            "f1_gap": 0.028071826236963915
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.1250653862953186,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8235294117647058,
+            "f1_gap": 0.10924369747899154
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.8494724035263062,
+            "f1_at_source_thr": 0.8170731707317073,
+            "f1_at_project_oracle": 0.8313253012048193,
+            "f1_gap": 0.014252130473112024
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.9989995360374451,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9994966983795166,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.9977481961250305,
+            "f1_at_source_thr": 0.8947368421052632,
+            "f1_at_project_oracle": 0.8947368421052632,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.9994557499885559,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9989012479782104,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.05714285714285705
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9994471669197083,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.04401864856481552,
+            "f1_at_source_thr": 0.8181818181818182,
+            "f1_at_project_oracle": 0.88,
+            "f1_gap": 0.06181818181818177
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.9978172779083252,
+            "f1_at_source_thr": 0.9629629629629629,
+            "f1_at_project_oracle": 0.9629629629629629,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9993013143539429,
+            "f1_at_source_thr": 0.825,
+            "f1_at_project_oracle": 0.8611111111111112,
+            "f1_gap": 0.036111111111111205
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.9367494583129883,
+            "f1_at_source_thr": 0.6938775510204082,
+            "f1_at_project_oracle": 0.7307692307692307,
+            "f1_gap": 0.03689167974882257
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.966156005859375,
+            "f1_at_source_thr": 0.9179331306990881,
+            "f1_at_project_oracle": 0.9212121212121213,
+            "f1_gap": 0.003278990513033153
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 4,
+        "seed": 0,
+        "n_train": 117107,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0681721605050689,
+        "thr_source": 0.9481545686721802,
+        "thr_oracle": 0.19682618975639343,
+        "thr_gap": 0.7513283789157867,
+        "f1_fixed_05": 0.7233138608603292,
+        "f1_source": 0.7205240174672489,
+        "f1_oracle": 0.7262455059065228,
+        "f1_gap": 0.005721488439273892,
+        "recall_source": 0.5877114870881567,
+        "recall_oracle": 0.6295636687444346,
+        "precision_source": 0.9308885754583921,
+        "per_project_thr_std": 0.4010818163977534,
+        "per_project_f1_gap_mean": 0.05159585574542507,
+        "per_project_f1_gap_max": 0.6666666666666666,
+        "n_projects_evaluated": 64,
+        "n_projects_with_gap_gt_01": 13,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9995272159576416,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9993013143539429,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.998793363571167,
+            "f1_at_source_thr": 0.5263157894736842,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.2429149797570851
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.1859472095966339,
+            "f1_at_source_thr": 0.7083333333333334,
+            "f1_at_project_oracle": 0.7524752475247525,
+            "f1_gap": 0.04414191419141911
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.7209580540657043,
+            "f1_at_source_thr": 0.7083333333333334,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.026360544217687076
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9996898174285889,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.9996079802513123,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.9994966983795166,
+            "f1_at_source_thr": 0.4,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.2666666666666666
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9995121955871582,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.9981897473335266,
+            "f1_at_source_thr": 0.6404494382022472,
+            "f1_at_project_oracle": 0.6835443037974683,
+            "f1_gap": 0.04309486559522113
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.9941800832748413,
+            "f1_at_source_thr": 0.8837209302325582,
+            "f1_at_project_oracle": 0.8837209302325582,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.9989677667617798,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.9961155652999878,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.9603611826896667,
+            "f1_at_source_thr": 0.8085106382978723,
+            "f1_at_project_oracle": 0.8085106382978723,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.999480664730072,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.05460060387849808,
+            "f1_at_source_thr": 0.5602836879432624,
+            "f1_at_project_oracle": 0.6768447837150128,
+            "f1_gap": 0.11656109577175033
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9994115829467773,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.9916841983795166,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.5052488446235657,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.9473684210526315,
+            "f1_gap": 0.05847953216374269
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.1041124165058136,
+            "f1_at_source_thr": 0.71875,
+            "f1_at_project_oracle": 0.7230769230769231,
+            "f1_gap": 0.0043269230769230616
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 0,
+        "seed": 1,
+        "n_train": 77102,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.6027632355690002,
+        "thr_oracle": 0.9111796617507935,
+        "thr_gap": 0.3084164261817932,
+        "f1_fixed_05": 0.766565458117521,
+        "f1_source": 0.7692307692307693,
+        "f1_oracle": 0.7751534312813837,
+        "f1_gap": 0.0059226620506144245,
+        "recall_source": 0.7379310344827587,
+        "recall_oracle": 0.7186206896551725,
+        "precision_source": 0.8033033033033034,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.0059226620506144245,
+        "per_project_f1_gap_max": 0.0059226620506144245,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.9111796617507935,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7751534312813837,
+            "f1_gap": 0.0059226620506144245
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 1,
+        "seed": 1,
+        "n_train": 90986,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.9899863600730896,
+        "thr_oracle": 0.9978172779083252,
+        "thr_gap": 0.007830917835235596,
+        "f1_fixed_05": 0.821553533939818,
+        "f1_source": 0.8407367280606717,
+        "f1_oracle": 0.8779739063699156,
+        "f1_gap": 0.03723717830924389,
+        "recall_source": 0.8094575799721836,
+        "recall_oracle": 0.7955493741307371,
+        "precision_source": 0.8745304282494365,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.03723717830924389,
+        "per_project_f1_gap_max": 0.03723717830924389,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9978172779083252,
+            "f1_at_source_thr": 0.8407367280606717,
+            "f1_at_project_oracle": 0.8779739063699156,
+            "f1_gap": 0.03723717830924389
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 2,
+        "seed": 1,
+        "n_train": 114227,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09323782930678645,
+        "thr_source": 0.9951702952384949,
+        "thr_oracle": 0.9984021782875061,
+        "thr_gap": 0.0032318830490112305,
+        "f1_fixed_05": 0.5908639523336644,
+        "f1_source": 0.7196819085487077,
+        "f1_oracle": 0.7521865889212828,
+        "f1_gap": 0.032504680372575034,
+        "recall_source": 0.70703125,
+        "recall_oracle": 0.671875,
+        "precision_source": 0.7327935222672065,
+        "per_project_thr_std": 0.4325447409333791,
+        "per_project_f1_gap_mean": 0.0726827209057445,
+        "per_project_f1_gap_max": 0.75,
+        "n_projects_evaluated": 57,
+        "n_projects_with_gap_gt_01": 12,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.3178495764732361,
+            "f1_at_source_thr": 0.8491620111731844,
+            "f1_at_project_oracle": 0.8648648648648649,
+            "f1_gap": 0.015702853691680563
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9989182949066162,
+            "f1_at_source_thr": 0.6603073661897191,
+            "f1_at_project_oracle": 0.7215273206056616,
+            "f1_gap": 0.061219954415942524
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.9989350438117981,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9996485710144043,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9993928670883179,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.7272727272727273,
+            "f1_gap": 0.06060606060606066
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.9996316432952881,
+            "f1_at_source_thr": 0.5,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.16666666666666663
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.014957087114453316,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.13333333333333341
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.06804041564464569,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.9090909090909091,
+            "f1_gap": 0.051948051948051965
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.7329742908477783,
+            "f1_at_source_thr": 0.5625,
+            "f1_at_project_oracle": 0.6060606060606061,
+            "f1_gap": 0.04356060606060608
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.9990890026092529,
+            "f1_at_source_thr": 0.5714285714285714,
+            "f1_at_project_oracle": 0.5714285714285714,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.02080448903143406,
+            "f1_at_source_thr": 0.7777777777777778,
+            "f1_at_project_oracle": 0.8181818181818182,
+            "f1_gap": 0.04040404040404044
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.9975274205207825,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.9975656270980835,
+            "f1_at_source_thr": 0.9113924050632911,
+            "f1_at_project_oracle": 0.9290322580645162,
+            "f1_gap": 0.01763985300122506
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.9996017813682556,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.9980732202529907,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9967268705368042,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.12549345195293427,
+            "f1_at_source_thr": 0.9142857142857143,
+            "f1_at_project_oracle": 0.9444444444444444,
+            "f1_gap": 0.030158730158730163
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.9343951344490051,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8125,
+            "f1_gap": 0.0982142857142857
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.02931223064661026,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.08571428571428574
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.999555766582489,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 3,
+        "seed": 1,
+        "n_train": 118048,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.054392035451951676,
+        "thr_source": 0.9977127313613892,
+        "thr_oracle": 0.9462003111839294,
+        "thr_gap": 0.05151242017745972,
+        "f1_fixed_05": 0.8264264264264264,
+        "f1_source": 0.8291746641074856,
+        "f1_oracle": 0.8385093167701864,
+        "f1_gap": 0.009334652662700726,
+        "recall_source": 0.7232142857142857,
+        "recall_oracle": 0.7533482142857143,
+        "precision_source": 0.9715142428785607,
+        "per_project_thr_std": 0.31329892586747327,
+        "per_project_f1_gap_mean": 0.05958517890529248,
+        "per_project_f1_gap_max": 0.8,
+        "n_projects_evaluated": 63,
+        "n_projects_with_gap_gt_01": 12,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.998245358467102,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.9996800422668457,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.999438464641571,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.9998089671134949,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.8991213440895081,
+            "f1_at_source_thr": 0.7586206896551724,
+            "f1_at_project_oracle": 0.7796610169491526,
+            "f1_gap": 0.0210403272939802
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9998089671134949,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.999713122844696,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.9989350438117981,
+            "f1_at_source_thr": 0.6788990825688074,
+            "f1_at_project_oracle": 0.6915887850467289,
+            "f1_gap": 0.01268970247792156
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.04401864856481552,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.717948717948718,
+            "f1_gap": 0.00366300366300365
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.9736446738243103,
+            "f1_at_source_thr": 0.8152866242038217,
+            "f1_at_project_oracle": 0.8433734939759037,
+            "f1_gap": 0.028086869772081968
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.9961755275726318,
+            "f1_at_source_thr": 0.9565217391304348,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.04347826086956519
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9998089671134949,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.11111111111111116
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.9945307374000549,
+            "f1_at_source_thr": 0.8648648648648649,
+            "f1_at_project_oracle": 0.8947368421052632,
+            "f1_gap": 0.02987197724039825
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9996699094772339,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.033333333333333326
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9998089671134949,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.5827953219413757,
+            "f1_at_source_thr": 0.8695652173913043,
+            "f1_at_project_oracle": 0.9166666666666666,
+            "f1_gap": 0.047101449275362306
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.9985895752906799,
+            "f1_at_source_thr": 0.9629629629629629,
+            "f1_at_project_oracle": 0.9629629629629629,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9991169571876526,
+            "f1_at_source_thr": 0.8533333333333334,
+            "f1_at_project_oracle": 0.8611111111111112,
+            "f1_gap": 0.007777777777777772
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.3153141438961029,
+            "f1_at_source_thr": 0.723404255319149,
+            "f1_at_project_oracle": 0.7547169811320755,
+            "f1_gap": 0.031312725812926545
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.3304711878299713,
+            "f1_at_source_thr": 0.8978328173374613,
+            "f1_at_project_oracle": 0.9226190476190477,
+            "f1_gap": 0.02478623028158633
+          }
+        ],
+        "model": "graphcodebert"
+      },
+      {
+        "fold": 4,
+        "seed": 1,
+        "n_train": 26959,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0674436957445517,
+        "thr_source": 0.9768466353416443,
+        "thr_oracle": 0.917302668094635,
+        "thr_gap": 0.05954396724700928,
+        "f1_fixed_05": 0.7025052192066806,
+        "f1_source": 0.7053571428571429,
+        "f1_oracle": 0.7111597374179431,
+        "f1_gap": 0.005802594560800234,
+        "recall_source": 0.5688568856885688,
+        "recall_oracle": 0.585058505850585,
+        "precision_source": 0.9280469897209985,
+        "per_project_thr_std": 0.3861640526870228,
+        "per_project_f1_gap_mean": 0.07021166715919218,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 17,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9985674619674683,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9989182949066162,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.9986329674720764,
+            "f1_at_source_thr": 0.5555555555555556,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.2777777777777778
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.00912563782185316,
+            "f1_at_source_thr": 0.6910994764397905,
+            "f1_at_project_oracle": 0.7522935779816514,
+            "f1_gap": 0.06119410154186089
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.5246382355690002,
+            "f1_at_source_thr": 0.7083333333333334,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.026360544217687076
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.07864238321781158,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9988664388656616,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.3315524756908417,
+            "f1_at_source_thr": 0.6878980891719745,
+            "f1_at_project_oracle": 0.7272727272727273,
+            "f1_gap": 0.03937463810075281
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.9980732202529907,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.35667070746421814,
+            "f1_at_source_thr": 0.625,
+            "f1_at_project_oracle": 0.8181818181818182,
+            "f1_gap": 0.19318181818181823
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.9867772459983826,
+            "f1_at_source_thr": 0.95,
+            "f1_at_project_oracle": 0.95,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.9971103668212891,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.10932483524084091,
+            "f1_at_source_thr": 0.8085106382978723,
+            "f1_at_project_oracle": 0.8247422680412371,
+            "f1_gap": 0.016231629743364784
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.9986541271209717,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.05494505494505497
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.09670579433441162,
+            "f1_at_source_thr": 0.5130111524163569,
+            "f1_at_project_oracle": 0.7128205128205128,
+            "f1_gap": 0.19980936040415598
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9986541271209717,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0641025641025641
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.9465966820716858,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.9814534187316895,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.8820220232009888,
+            "f1_at_source_thr": 0.7076923076923077,
+            "f1_at_project_oracle": 0.7121212121212122,
+            "f1_gap": 0.004428904428904423
+          },
+          {
+            "project": "postgres",
+            "n": 339,
+            "vuln_rate": 0.06784660766961652,
+            "thr_optimal": 0.9348725080490112,
+            "f1_at_source_thr": 0.9545454545454546,
+            "f1_at_project_oracle": 0.9777777777777777,
+            "f1_gap": 0.02323232323232316
+          }
+        ],
+        "model": "graphcodebert"
+      }
+    ],
+    "summary": {
+      "mean_f1_gap": 0.028075063611208696,
+      "ci95": [
+        0.01365076986281936,
+        0.04323932607329654
+      ],
+      "mean_f1_at_source": 0.765979820435622,
+      "mean_per_project_gap": 0.05413136862862603,
+      "n_runs": 10
+    }
+  },
+  "linevul": {
+    "runs": [
+      {
+        "fold": 0,
+        "seed": 0,
+        "n_train": 34099,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.9991832375526428,
+        "thr_oracle": 0.3605031669139862,
+        "thr_gap": 0.6386800706386566,
+        "f1_fixed_05": 0.744435612082671,
+        "f1_source": 0.5240506329113924,
+        "f1_oracle": 0.745756020529017,
+        "f1_gap": 0.2217053876176246,
+        "recall_source": 0.3568965517241379,
+        "recall_oracle": 0.6513793103448275,
+        "precision_source": 0.9857142857142858,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.2217053876176246,
+        "per_project_f1_gap_max": 0.2217053876176246,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 1,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.3605031669139862,
+            "f1_at_source_thr": 0.5240506329113924,
+            "f1_at_project_oracle": 0.745756020529017,
+            "f1_gap": 0.2217053876176246
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 1,
+        "seed": 0,
+        "n_train": 91734,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.907312273979187,
+        "thr_oracle": 0.9924227595329285,
+        "thr_gap": 0.08511048555374146,
+        "f1_fixed_05": 0.8717375093214019,
+        "f1_source": 0.8802736602052451,
+        "f1_oracle": 0.8835249042145594,
+        "f1_gap": 0.0032512440093143136,
+        "recall_source": 0.8052851182197497,
+        "recall_oracle": 0.8018080667593881,
+        "precision_source": 0.9706621961441744,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.0032512440093143136,
+        "per_project_f1_gap_max": 0.0032512440093143136,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9924227595329285,
+            "f1_at_source_thr": 0.8802736602052451,
+            "f1_at_project_oracle": 0.8835249042145594,
+            "f1_gap": 0.0032512440093143136
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 2,
+        "seed": 0,
+        "n_train": 112964,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09335923273036299,
+        "thr_source": 0.957912266254425,
+        "thr_oracle": 0.9975656270980835,
+        "thr_gap": 0.03965336084365845,
+        "f1_fixed_05": 0.49422442244224424,
+        "f1_source": 0.5166778598612044,
+        "f1_oracle": 0.637537239324727,
+        "f1_gap": 0.12085937946352254,
+        "recall_source": 0.7503250975292588,
+        "recall_oracle": 0.6261378413524057,
+        "precision_source": 0.39399112325025604,
+        "per_project_thr_std": 0.4074020651767306,
+        "per_project_f1_gap_mean": 0.06308290226898751,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 13,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.9130584001541138,
+            "f1_at_source_thr": 0.8397790055248618,
+            "f1_at_project_oracle": 0.8494623655913979,
+            "f1_gap": 0.009683360066536029
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9983769655227661,
+            "f1_at_source_thr": 0.414229725655713,
+            "f1_at_project_oracle": 0.5644171779141104,
+            "f1_gap": 0.1501874522583974
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.9964619278907776,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9994725584983826,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9993638396263123,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.7272727272727273,
+            "f1_gap": 0.06060606060606066
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.010248602367937565,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.33333333333333337
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.012821213342249393,
+            "f1_at_source_thr": 0.47058823529411764,
+            "f1_at_project_oracle": 0.7619047619047619,
+            "f1_gap": 0.2913165266106442
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.6176279783248901,
+            "f1_at_source_thr": 0.5,
+            "f1_at_project_oracle": 0.5882352941176471,
+            "f1_gap": 0.08823529411764708
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.9968273043632507,
+            "f1_at_source_thr": 0.75,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.9810219407081604,
+            "f1_at_source_thr": 0.7777777777777778,
+            "f1_at_project_oracle": 0.7777777777777778,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.9983769655227661,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.9953181147575378,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.1428571428571429
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.9671630263328552,
+            "f1_at_source_thr": 0.9192546583850931,
+            "f1_at_project_oracle": 0.925,
+            "f1_gap": 0.005745341614906918
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.9992563128471375,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.9981897473335266,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9967774748802185,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.039342500269412994,
+            "f1_at_source_thr": 0.9142857142857143,
+            "f1_at_project_oracle": 0.918918918918919,
+            "f1_gap": 0.004633204633204713
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.013848611153662205,
+            "f1_at_source_thr": 0.5517241379310345,
+            "f1_at_project_oracle": 0.6153846153846154,
+            "f1_gap": 0.06366047745358094
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.9941800832748413,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "file",
+            "n": 216,
+            "vuln_rate": 0.1388888888888889,
+            "thr_optimal": 0.10158944129943848,
+            "f1_at_source_thr": 0.8461538461538461,
+            "f1_at_project_oracle": 0.8771929824561403,
+            "f1_gap": 0.031039136302294157
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 3,
+        "seed": 0,
+        "n_train": 117635,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.05354215989801493,
+        "thr_source": 0.9883127808570862,
+        "thr_oracle": 0.9820137619972229,
+        "thr_gap": 0.006299018859863281,
+        "f1_fixed_05": 0.8220858895705522,
+        "f1_source": 0.8325907065563335,
+        "f1_oracle": 0.83617963314358,
+        "f1_gap": 0.0035889265872465215,
+        "recall_source": 0.7414965986394558,
+        "recall_oracle": 0.7494331065759637,
+        "precision_source": 0.9492017416545718,
+        "per_project_thr_std": 0.3743692117765081,
+        "per_project_f1_gap_mean": 0.04513040864801919,
+        "per_project_f1_gap_max": 0.5,
+        "n_projects_evaluated": 56,
+        "n_projects_with_gap_gt_01": 11,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.9979493021965027,
+            "f1_at_source_thr": 0.8636363636363636,
+            "f1_at_project_oracle": 0.8636363636363636,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.9990600943565369,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.9997305274009705,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.9994207620620728,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.9952448010444641,
+            "f1_at_source_thr": 0.7796610169491526,
+            "f1_at_project_oracle": 0.7796610169491526,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.9982725381851196,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.9973269701004028,
+            "f1_at_source_thr": 0.6491228070175439,
+            "f1_at_project_oracle": 0.6605504587155964,
+            "f1_gap": 0.011427651698052488
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.2351084053516388,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.875,
+            "f1_gap": 0.1607142857142857
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.9908744096755981,
+            "f1_at_source_thr": 0.8484848484848485,
+            "f1_at_project_oracle": 0.8536585365853658,
+            "f1_gap": 0.005173688100517326
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.999220609664917,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9995044469833374,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.16026602685451508,
+            "f1_at_source_thr": 0.8947368421052632,
+            "f1_at_project_oracle": 0.9,
+            "f1_gap": 0.0052631578947368585
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.9997219443321228,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9966233968734741,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9997040629386902,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.996570348739624,
+            "f1_at_source_thr": 0.9166666666666666,
+            "f1_at_project_oracle": 0.9166666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.9921841025352478,
+            "f1_at_source_thr": 0.9629629629629629,
+            "f1_at_project_oracle": 0.9629629629629629,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9985449314117432,
+            "f1_at_source_thr": 0.8461538461538461,
+            "f1_at_project_oracle": 0.88,
+            "f1_gap": 0.03384615384615386
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.01798621006309986,
+            "f1_at_source_thr": 0.7083333333333334,
+            "f1_at_project_oracle": 0.7397260273972602,
+            "f1_gap": 0.03139269406392686
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.723700225353241,
+            "f1_at_source_thr": 0.8978328173374613,
+            "f1_at_project_oracle": 0.918429003021148,
+            "f1_gap": 0.020596185683686707
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 4,
+        "seed": 0,
+        "n_train": 117107,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0681721605050689,
+        "thr_source": 0.9778834581375122,
+        "thr_oracle": 0.9643214344978333,
+        "thr_gap": 0.013562023639678955,
+        "f1_fixed_05": 0.7156652360515021,
+        "f1_source": 0.7201327433628318,
+        "f1_oracle": 0.7223749312809236,
+        "f1_gap": 0.0022421879180917204,
+        "recall_source": 0.5796972395369546,
+        "recall_oracle": 0.585040071237756,
+        "precision_source": 0.9503649635036496,
+        "per_project_thr_std": 0.3872462271447824,
+        "per_project_f1_gap_mean": 0.0444400065857347,
+        "per_project_f1_gap_max": 0.6,
+        "n_projects_evaluated": 64,
+        "n_projects_with_gap_gt_01": 7,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9997305274009705,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9994296431541443,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.9987550973892212,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.05494505494505497
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.035678546875715256,
+            "f1_at_source_thr": 0.6947368421052632,
+            "f1_at_project_oracle": 0.7403846153846154,
+            "f1_gap": 0.04564777327935221
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.9925393462181091,
+            "f1_at_source_thr": 0.7346938775510204,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9996849298477173,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.9998089671134949,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.9994471669197083,
+            "f1_at_source_thr": 0.4,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.2666666666666666
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9997965693473816,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.996292769908905,
+            "f1_at_source_thr": 0.6742857142857143,
+            "f1_at_project_oracle": 0.7125,
+            "f1_gap": 0.038214285714285756
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.09982066601514816,
+            "f1_at_source_thr": 0.8292682926829268,
+            "f1_at_project_oracle": 0.8837209302325582,
+            "f1_gap": 0.054452637549631366
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.9989350438117981,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.9843363761901855,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.9947799444198608,
+            "f1_at_source_thr": 0.8085106382978723,
+            "f1_at_project_oracle": 0.8085106382978723,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.9997901320457458,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7692307692307693,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.004264634568244219,
+            "f1_at_source_thr": 0.5367647058823529,
+            "f1_at_project_oracle": 0.568075117370892,
+            "f1_gap": 0.03131041148853908
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9993013143539429,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.5928728580474854,
+            "f1_at_source_thr": 0.9411764705882353,
+            "f1_at_project_oracle": 0.9473684210526315,
+            "f1_gap": 0.006191950464396245
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.9717789888381958,
+            "f1_at_source_thr": 0.9411764705882353,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.05882352941176472
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.9814534187316895,
+            "f1_at_source_thr": 0.7086614173228346,
+            "f1_at_project_oracle": 0.7086614173228346,
+            "f1_gap": 0.0
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 0,
+        "seed": 1,
+        "n_train": 77102,
+        "n_test": 51377,
+        "test_projects": 1,
+        "test_vuln_rate": 0.05644549117309302,
+        "thr_source": 0.29746994376182556,
+        "thr_oracle": 0.9921841025352478,
+        "thr_gap": 0.6947141587734222,
+        "f1_fixed_05": 0.5843507214206437,
+        "f1_source": 0.5665110073382255,
+        "f1_oracle": 0.6770080747981301,
+        "f1_gap": 0.11049706745990462,
+        "recall_source": 0.7320689655172414,
+        "recall_oracle": 0.5493103448275862,
+        "precision_source": 0.4620239390642002,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.11049706745990462,
+        "per_project_f1_gap_max": 0.11049706745990462,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 1,
+        "per_project_details": [
+          {
+            "project": "Chrome",
+            "n": 51377,
+            "vuln_rate": 0.05644549117309302,
+            "thr_optimal": 0.9921841025352478,
+            "f1_at_source_thr": 0.5665110073382255,
+            "f1_at_project_oracle": 0.6770080747981301,
+            "f1_gap": 0.11049706745990462
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 1,
+        "seed": 1,
+        "n_train": 90986,
+        "n_test": 36745,
+        "test_projects": 1,
+        "test_vuln_rate": 0.039134576132807186,
+        "thr_source": 0.8365545868873596,
+        "thr_oracle": 0.9801293015480042,
+        "thr_gap": 0.14357471466064453,
+        "f1_fixed_05": 0.8761329305135952,
+        "f1_source": 0.8797564687975646,
+        "f1_oracle": 0.8816545384909996,
+        "f1_gap": 0.0018980696934349783,
+        "recall_source": 0.803894297635605,
+        "recall_oracle": 0.8004172461752433,
+        "precision_source": 0.9714285714285714,
+        "per_project_thr_std": 0.0,
+        "per_project_f1_gap_mean": 0.0018980696934349783,
+        "per_project_f1_gap_max": 0.0018980696934349783,
+        "n_projects_evaluated": 1,
+        "n_projects_with_gap_gt_01": 0,
+        "per_project_details": [
+          {
+            "project": "linux",
+            "n": 36745,
+            "vuln_rate": 0.039134576132807186,
+            "thr_optimal": 0.9801293015480042,
+            "f1_at_source_thr": 0.8797564687975646,
+            "f1_at_project_oracle": 0.8816545384909996,
+            "f1_gap": 0.0018980696934349783
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 2,
+        "seed": 1,
+        "n_train": 114227,
+        "n_test": 16474,
+        "test_projects": 101,
+        "test_vuln_rate": 0.09323782930678645,
+        "thr_source": 0.15662017464637756,
+        "thr_oracle": 0.9968273043632507,
+        "thr_gap": 0.8402071297168732,
+        "f1_fixed_05": 0.5061700695535113,
+        "f1_source": 0.49345071934721924,
+        "f1_oracle": 0.6213324128408698,
+        "f1_gap": 0.12788169349365058,
+        "recall_source": 0.748046875,
+        "recall_oracle": 0.5859375,
+        "precision_source": 0.3681512335789811,
+        "per_project_thr_std": 0.40779973647895296,
+        "per_project_f1_gap_mean": 0.04063692245409492,
+        "per_project_f1_gap_max": 0.38888888888888895,
+        "n_projects_evaluated": 57,
+        "n_projects_with_gap_gt_01": 7,
+        "per_project_details": [
+          {
+            "project": "krb5",
+            "n": 644,
+            "vuln_rate": 0.15838509316770186,
+            "thr_optimal": 0.28656837344169617,
+            "f1_at_source_thr": 0.8181818181818182,
+            "f1_at_project_oracle": 0.8228571428571428,
+            "f1_gap": 0.00467532467532461
+          },
+          {
+            "project": "Android",
+            "n": 6158,
+            "vuln_rate": 0.1432283208834037,
+            "thr_optimal": 0.9981030225753784,
+            "f1_at_source_thr": 0.3891117478510029,
+            "f1_at_project_oracle": 0.5522914218566393,
+            "f1_gap": 0.16317967400563638
+          },
+          {
+            "project": "git",
+            "n": 317,
+            "vuln_rate": 0.03470031545741325,
+            "thr_optimal": 0.9977481961250305,
+            "f1_at_source_thr": 0.9523809523809523,
+            "f1_at_project_oracle": 0.9523809523809523,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libcomps",
+            "n": 61,
+            "vuln_rate": 0.03278688524590164,
+            "thr_optimal": 0.9994887113571167,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gpac",
+            "n": 981,
+            "vuln_rate": 0.007135575942915392,
+            "thr_optimal": 0.9976769089698792,
+            "f1_at_source_thr": 0.6153846153846154,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.05128205128205121
+          },
+          {
+            "project": "jabberd2",
+            "n": 46,
+            "vuln_rate": 0.043478260869565216,
+            "thr_optimal": 0.9991169571876526,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "frr",
+            "n": 66,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.012431650422513485,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.13333333333333341
+          },
+          {
+            "project": "suricata",
+            "n": 254,
+            "vuln_rate": 0.09448818897637795,
+            "thr_optimal": 0.9901401400566101,
+            "f1_at_source_thr": 0.8292682926829268,
+            "f1_at_project_oracle": 0.8292682926829268,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "openjpeg",
+            "n": 177,
+            "vuln_rate": 0.12994350282485875,
+            "thr_optimal": 0.9449946880340576,
+            "f1_at_source_thr": 0.5294117647058824,
+            "f1_at_project_oracle": 0.5625,
+            "f1_gap": 0.03308823529411764
+          },
+          {
+            "project": "w3m",
+            "n": 214,
+            "vuln_rate": 0.02336448598130841,
+            "thr_optimal": 0.9924227595329285,
+            "f1_at_source_thr": 0.75,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "gnupg",
+            "n": 174,
+            "vuln_rate": 0.06321839080459771,
+            "thr_optimal": 0.9958011507987976,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.7058823529411765,
+            "f1_gap": 0.03921568627450989
+          },
+          {
+            "project": "nspluginwrapper",
+            "n": 209,
+            "vuln_rate": 0.019138755980861243,
+            "thr_optimal": 0.9975656270980835,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "jasper",
+            "n": 544,
+            "vuln_rate": 0.14705882352941177,
+            "thr_optimal": 0.275909423828125,
+            "f1_at_source_thr": 0.9375,
+            "f1_at_project_oracle": 0.9375,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ovs",
+            "n": 786,
+            "vuln_rate": 0.002544529262086514,
+            "thr_optimal": 0.9989350438117981,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "imageworsener",
+            "n": 237,
+            "vuln_rate": 0.05485232067510549,
+            "thr_optimal": 0.9918121099472046,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "spice",
+            "n": 293,
+            "vuln_rate": 0.013651877133105802,
+            "thr_optimal": 0.9970190525054932,
+            "f1_at_source_thr": 0.8571428571428571,
+            "f1_at_project_oracle": 0.8571428571428571,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "keepalived",
+            "n": 326,
+            "vuln_rate": 0.05828220858895705,
+            "thr_optimal": 0.02178117260336876,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.9230769230769231,
+            "f1_gap": 0.03418803418803429
+          },
+          {
+            "project": "htcondor",
+            "n": 484,
+            "vuln_rate": 0.0371900826446281,
+            "thr_optimal": 0.9591543078422546,
+            "f1_at_source_thr": 0.6857142857142857,
+            "f1_at_project_oracle": 0.7272727272727273,
+            "f1_gap": 0.04155844155844157
+          },
+          {
+            "project": "exempi",
+            "n": 185,
+            "vuln_rate": 0.043243243243243246,
+            "thr_optimal": 0.9978172779083252,
+            "f1_at_source_thr": 0.625,
+            "f1_at_project_oracle": 0.7142857142857143,
+            "f1_gap": 0.0892857142857143
+          },
+          {
+            "project": "openmpt",
+            "n": 82,
+            "vuln_rate": 0.04878048780487805,
+            "thr_optimal": 0.9993435740470886,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 3,
+        "seed": 1,
+        "n_train": 118048,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.054392035451951676,
+        "thr_source": 0.9946150183677673,
+        "thr_oracle": 0.9788748621940613,
+        "thr_gap": 0.015740156173706055,
+        "f1_fixed_05": 0.8201090248334343,
+        "f1_source": 0.8131443298969072,
+        "f1_oracle": 0.8276729559748428,
+        "f1_gap": 0.014528626077935591,
+        "recall_source": 0.7042410714285714,
+        "recall_oracle": 0.734375,
+        "precision_source": 0.961890243902439,
+        "per_project_thr_std": 0.37947827387245214,
+        "per_project_f1_gap_mean": 0.07419093954331041,
+        "per_project_f1_gap_max": 0.6666666666666667,
+        "n_projects_evaluated": 63,
+        "n_projects_with_gap_gt_01": 14,
+        "per_project_details": [
+          {
+            "project": "xserver",
+            "n": 899,
+            "vuln_rate": 0.026696329254727477,
+            "thr_optimal": 0.26133090257644653,
+            "f1_at_source_thr": 0.8372093023255814,
+            "f1_at_project_oracle": 0.851063829787234,
+            "f1_gap": 0.01385452746165261
+          },
+          {
+            "project": "haproxy",
+            "n": 319,
+            "vuln_rate": 0.025078369905956112,
+            "thr_optimal": 0.9990745782852173,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libming",
+            "n": 89,
+            "vuln_rate": 0.02247191011235955,
+            "thr_optimal": 0.9996373653411865,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "memcached",
+            "n": 208,
+            "vuln_rate": 0.019230769230769232,
+            "thr_optimal": 0.9992678761482239,
+            "f1_at_source_thr": 0.6666666666666666,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ghostscript",
+            "n": 1485,
+            "vuln_rate": 0.04781144781144781,
+            "thr_optimal": 0.9938070178031921,
+            "f1_at_source_thr": 0.7863247863247863,
+            "f1_at_project_oracle": 0.7899159663865546,
+            "f1_gap": 0.0035911800617682843
+          },
+          {
+            "project": "php-radius",
+            "n": 52,
+            "vuln_rate": 0.038461538461538464,
+            "thr_optimal": 0.9996898174285889,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "curl",
+            "n": 176,
+            "vuln_rate": 0.056818181818181816,
+            "thr_optimal": 0.999373733997345,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "savannah",
+            "n": 1685,
+            "vuln_rate": 0.04154302670623145,
+            "thr_optimal": 0.9980121850967407,
+            "f1_at_source_thr": 0.6428571428571429,
+            "f1_at_project_oracle": 0.6666666666666666,
+            "f1_gap": 0.023809523809523725
+          },
+          {
+            "project": "ImageMagick6",
+            "n": 290,
+            "vuln_rate": 0.06206896551724138,
+            "thr_optimal": 0.05707139894366264,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.7894736842105263,
+            "f1_gap": 0.07518796992481203
+          },
+          {
+            "project": "qemu",
+            "n": 2445,
+            "vuln_rate": 0.03640081799591002,
+            "thr_optimal": 0.8311430811882019,
+            "f1_at_source_thr": 0.8076923076923077,
+            "f1_at_project_oracle": 0.8322981366459627,
+            "f1_gap": 0.02460582895365504
+          },
+          {
+            "project": "firejail",
+            "n": 87,
+            "vuln_rate": 0.13793103448275862,
+            "thr_optimal": 0.9981613755226135,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "squashfs-tools",
+            "n": 52,
+            "vuln_rate": 0.07692307692307693,
+            "thr_optimal": 0.9996373653411865,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.19999999999999996
+          },
+          {
+            "project": "pacemaker",
+            "n": 256,
+            "vuln_rate": 0.08203125,
+            "thr_optimal": 0.8140527606010437,
+            "f1_at_source_thr": 0.8947368421052632,
+            "f1_at_project_oracle": 0.9230769230769231,
+            "f1_gap": 0.028340080971659964
+          },
+          {
+            "project": "mindrot",
+            "n": 231,
+            "vuln_rate": 0.030303030303030304,
+            "thr_optimal": 0.9788748621940613,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.08571428571428574
+          },
+          {
+            "project": "libevent",
+            "n": 171,
+            "vuln_rate": 0.011695906432748537,
+            "thr_optimal": 0.9992792010307312,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "yara",
+            "n": 163,
+            "vuln_rate": 0.07975460122699386,
+            "thr_optimal": 0.24077458679676056,
+            "f1_at_source_thr": 0.8181818181818182,
+            "f1_at_project_oracle": 0.96,
+            "f1_gap": 0.14181818181818173
+          },
+          {
+            "project": "rdesktop",
+            "n": 188,
+            "vuln_rate": 0.07446808510638298,
+            "thr_optimal": 0.5749915242195129,
+            "f1_at_source_thr": 0.88,
+            "f1_at_project_oracle": 0.9629629629629629,
+            "f1_gap": 0.0829629629629629
+          },
+          {
+            "project": "libtiff",
+            "n": 467,
+            "vuln_rate": 0.08779443254817987,
+            "thr_optimal": 0.9979493021965027,
+            "f1_at_source_thr": 0.8461538461538461,
+            "f1_at_project_oracle": 0.88,
+            "f1_gap": 0.03384615384615386
+          },
+          {
+            "project": "poppler",
+            "n": 712,
+            "vuln_rate": 0.04073033707865169,
+            "thr_optimal": 0.9736446738243103,
+            "f1_at_source_thr": 0.5365853658536586,
+            "f1_at_project_oracle": 0.6808510638297872,
+            "f1_gap": 0.14426569797612865
+          },
+          {
+            "project": "php-src",
+            "n": 1183,
+            "vuln_rate": 0.14877430262045646,
+            "thr_optimal": 0.04535257816314697,
+            "f1_at_source_thr": 0.8909657320872274,
+            "f1_at_project_oracle": 0.9203539823008849,
+            "f1_gap": 0.02938825021365754
+          }
+        ],
+        "model": "linevul"
+      },
+      {
+        "fold": 4,
+        "seed": 1,
+        "n_train": 26959,
+        "n_test": 16473,
+        "test_projects": 103,
+        "test_vuln_rate": 0.0674436957445517,
+        "thr_source": 0.9959298968315125,
+        "thr_oracle": 0.9949396848678589,
+        "thr_gap": 0.0009902119636535645,
+        "f1_fixed_05": 0.661498708010336,
+        "f1_source": 0.6611374407582938,
+        "f1_oracle": 0.6755813953488372,
+        "f1_gap": 0.014443954590543373,
+        "recall_source": 0.5022502250225023,
+        "recall_oracle": 0.5229522952295229,
+        "precision_source": 0.9670710571923743,
+        "per_project_thr_std": 0.4389389863316397,
+        "per_project_f1_gap_mean": 0.0766385443718433,
+        "per_project_f1_gap_max": 0.6666666666666666,
+        "n_projects_evaluated": 60,
+        "n_projects_with_gap_gt_01": 14,
+        "per_project_details": [
+          {
+            "project": "libsndfile",
+            "n": 175,
+            "vuln_rate": 0.13714285714285715,
+            "thr_optimal": 0.9974491000175476,
+            "f1_at_source_thr": 0.7368421052631579,
+            "f1_at_project_oracle": 0.7368421052631579,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "ntp",
+            "n": 101,
+            "vuln_rate": 0.019801980198019802,
+            "thr_optimal": 0.9971103668212891,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "Little-CMS",
+            "n": 303,
+            "vuln_rate": 0.0231023102310231,
+            "thr_optimal": 0.9974491000175476,
+            "f1_at_source_thr": 0.8333333333333334,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "tcpdump",
+            "n": 558,
+            "vuln_rate": 0.22043010752688172,
+            "thr_optimal": 0.047074176371097565,
+            "f1_at_source_thr": 0.6914893617021277,
+            "f1_at_project_oracle": 0.7727272727272727,
+            "f1_gap": 0.081237911025145
+          },
+          {
+            "project": "OpenSC",
+            "n": 685,
+            "vuln_rate": 0.04525547445255475,
+            "thr_optimal": 0.9899086952209473,
+            "f1_at_source_thr": 0.6808510638297872,
+            "f1_at_project_oracle": 0.7346938775510204,
+            "f1_gap": 0.05384281372123323
+          },
+          {
+            "project": "gstreamer",
+            "n": 104,
+            "vuln_rate": 0.028846153846153848,
+            "thr_optimal": 0.9981324076652527,
+            "f1_at_source_thr": 0.8,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "libndp",
+            "n": 75,
+            "vuln_rate": 0.02666666666666667,
+            "thr_optimal": 0.9978843331336975,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "php",
+            "n": 2056,
+            "vuln_rate": 0.047665369649805445,
+            "thr_optimal": 0.09138209372758865,
+            "f1_at_source_thr": 0.6577181208053692,
+            "f1_at_project_oracle": 0.7553191489361702,
+            "f1_gap": 0.09760102813080107
+          },
+          {
+            "project": "mbedtls",
+            "n": 166,
+            "vuln_rate": 0.09036144578313253,
+            "thr_optimal": 0.997285008430481,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.8888888888888888,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "virglrenderer",
+            "n": 226,
+            "vuln_rate": 0.048672566371681415,
+            "thr_optimal": 0.9966756105422974,
+            "f1_at_source_thr": 0.7058823529411765,
+            "f1_at_project_oracle": 0.7058823529411765,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "lxc",
+            "n": 276,
+            "vuln_rate": 0.06884057971014493,
+            "thr_optimal": 0.11240509152412415,
+            "f1_at_source_thr": 0.8823529411764706,
+            "f1_at_project_oracle": 0.9230769230769231,
+            "f1_gap": 0.040723981900452566
+          },
+          {
+            "project": "mruby",
+            "n": 254,
+            "vuln_rate": 0.011811023622047244,
+            "thr_optimal": 0.996292769908905,
+            "f1_at_source_thr": 1.0,
+            "f1_at_project_oracle": 1.0,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "radare2",
+            "n": 881,
+            "vuln_rate": 0.06356413166855845,
+            "thr_optimal": 0.9910145401954651,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.7956989247311828,
+            "f1_gap": 0.02646815550041348
+          },
+          {
+            "project": "OpenJK",
+            "n": 493,
+            "vuln_rate": 0.016227180527383367,
+            "thr_optimal": 0.014728614129126072,
+            "f1_at_source_thr": 0.7692307692307693,
+            "f1_at_project_oracle": 0.8,
+            "f1_gap": 0.03076923076923077
+          },
+          {
+            "project": "ImageMagick",
+            "n": 1871,
+            "vuln_rate": 0.10582576162479958,
+            "thr_optimal": 0.011331753805279732,
+            "f1_at_source_thr": 0.35684647302904565,
+            "f1_at_project_oracle": 0.635593220338983,
+            "f1_gap": 0.27874674730993737
+          },
+          {
+            "project": "httpd",
+            "n": 447,
+            "vuln_rate": 0.015659955257270694,
+            "thr_optimal": 0.9976403713226318,
+            "f1_at_source_thr": 0.7142857142857143,
+            "f1_at_project_oracle": 0.8333333333333334,
+            "f1_gap": 0.11904761904761907
+          },
+          {
+            "project": "redis",
+            "n": 259,
+            "vuln_rate": 0.03474903474903475,
+            "thr_optimal": 0.9960545301437378,
+            "f1_at_source_thr": 0.75,
+            "f1_at_project_oracle": 0.75,
+            "f1_gap": 0.0
+          },
+          {
+            "project": "launchpad",
+            "n": 211,
+            "vuln_rate": 0.04265402843601896,
+            "thr_optimal": 0.9971550703048706,
+            "f1_at_source_thr": 0.8888888888888888,
+            "f1_at_project_oracle": 0.9411764705882353,
+            "f1_gap": 0.05228758169934644
+          },
+          {
+            "project": "FFmpeg",
+            "n": 1542,
+            "vuln_rate": 0.05317769130998703,
+            "thr_optimal": 0.6145097017288208,
+            "f1_at_source_thr": 0.6341463414634146,
+            "f1_at_project_oracle": 0.65625,
+            "f1_gap": 0.022103658536585358
+          },
+          {
+            "project": "postgres",
+            "n": 339,
+            "vuln_rate": 0.06784660766961652,
+            "thr_optimal": 0.9949396848678589,
+            "f1_at_source_thr": 0.9545454545454546,
+            "f1_at_project_oracle": 0.9777777777777777,
+            "f1_gap": 0.02323232323232316
+          }
+        ],
+        "model": "linevul"
+      }
+    ],
+    "summary": {
+      "mean_f1_gap": 0.06208965369112688,
+      "ci95": [
+        0.01813170117540095,
+        0.11278173577732505
+      ],
+      "mean_f1_at_source": 0.6887725569035219,
+      "mean_per_project_gap": 0.06814714926522686,
+      "n_runs": 10
+    }
+  }
+}

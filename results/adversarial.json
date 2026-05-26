@@ -1,0 +1,33 @@
+{
+  "model": "vulnguard",
+  "is_proxy": false,
+  "clean": {
+    "threshold": 0.5392258763313293,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pred_pos_rate": 0.0,
+    "base_pos_rate": 0.041666666666666664,
+    "pr_auc": 0.40887387387387386,
+    "roc_auc": 0.6008695652173912,
+    "collapsed": true
+  },
+  "perturbations": {
+    "rename": {
+      "f1": 0.0,
+      "abs_drop": 0.0,
+      "rel_drop_pct": 0.0
+    },
+    "deadcode": {
+      "f1": 0.0,
+      "abs_drop": 0.0,
+      "rel_drop_pct": 0.0
+    },
+    "whitespace": {
+      "f1": 0.0,
+      "abs_drop": 0.0,
+      "rel_drop_pct": 0.0,
+      "tokenization_changed_frac": 1.0
+    }
+  }
+}

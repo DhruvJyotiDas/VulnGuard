@@ -1,0 +1,158 @@
+[
+  {
+    "config": {
+      "precision": "fp16",
+      "balance": false,
+      "weight": 30.0,
+      "epochs": 3,
+      "seed": 0
+    },
+    "metrics@0.5": {
+      "threshold": 0.5,
+      "precision": 0.45622641509433964,
+      "recall": 1.0,
+      "f1": 0.6265871987561544,
+      "pred_pos_rate": 0.9981167608286252,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.512988038503852,
+      "roc_auc": 0.5709414722682692,
+      "collapsed": false
+    },
+    "metrics@calibrated": {
+      "threshold": 0.9302051067352295,
+      "precision": 0.47274549098196395,
+      "recall": 0.9755996691480563,
+      "f1": 0.6368790496760259,
+      "pred_pos_rate": 0.9397363465160076,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.512988038503852,
+      "roc_auc": 0.5709414722682692,
+      "collapsed": false
+    },
+    "logit_diagnostics": {
+      "logit_pos_mean": 1.869154087343234,
+      "logit_neg_mean": -1.532010927936676,
+      "margin_mean": 3.40116501527991,
+      "margin_std": 0.5359497892308446,
+      "is_constant": false,
+      "frac_predicts_pos@0.5": 0.9981167608286252
+    }
+  },
+  {
+    "config": {
+      "precision": "bf16",
+      "balance": false,
+      "weight": 30.0,
+      "epochs": 3,
+      "seed": 0
+    },
+    "metrics@0.5": {
+      "threshold": 0.5,
+      "precision": 0.4704153605015674,
+      "recall": 0.9929693961952026,
+      "f1": 0.6383940441371976,
+      "pred_pos_rate": 0.9612052730696798,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.6494740841701568,
+      "roc_auc": 0.6596241936055883,
+      "collapsed": false
+    },
+    "metrics@calibrated": {
+      "threshold": 0.8683809638023376,
+      "precision": 0.4798519736842105,
+      "recall": 0.9652605459057072,
+      "f1": 0.6410326833287558,
+      "pred_pos_rate": 0.9160075329566855,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.6494740841701568,
+      "roc_auc": 0.6596241936055883,
+      "collapsed": false
+    },
+    "logit_diagnostics": {
+      "logit_pos_mean": 1.433232613831141,
+      "logit_neg_mean": -1.5598850401107873,
+      "margin_mean": 2.9931176539419284,
+      "margin_std": 1.3146449611414288,
+      "is_constant": false,
+      "frac_predicts_pos@0.5": 0.9612052730696798
+    }
+  },
+  {
+    "config": {
+      "precision": "bf16",
+      "balance": true,
+      "weight": 30.0,
+      "epochs": 3,
+      "seed": 0
+    },
+    "metrics@0.5": {
+      "threshold": 0.5,
+      "precision": 0.46748204232187923,
+      "recall": 0.9958643507030603,
+      "f1": 0.6362795613687409,
+      "pred_pos_rate": 0.9700564971751412,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.6433898173121156,
+      "roc_auc": 0.6527640494813565,
+      "collapsed": false
+    },
+    "metrics@calibrated": {
+      "threshold": 0.9412234425544739,
+      "precision": 0.4958904109589041,
+      "recall": 0.8982630272952854,
+      "f1": 0.6390114739629302,
+      "pred_pos_rate": 0.8248587570621468,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.6433898173121156,
+      "roc_auc": 0.6527640494813565,
+      "collapsed": false
+    },
+    "logit_diagnostics": {
+      "logit_pos_mean": 1.6432953398106462,
+      "logit_neg_mean": -1.5882215711805556,
+      "margin_mean": 3.2315169109912016,
+      "margin_std": 1.1955304673630303,
+      "is_constant": false,
+      "frac_predicts_pos@0.5": 0.9700564971751412
+    }
+  },
+  {
+    "config": {
+      "precision": "bf16",
+      "balance": true,
+      "weight": 1.0,
+      "epochs": 3,
+      "seed": 0
+    },
+    "metrics@0.5": {
+      "threshold": 0.5,
+      "precision": 0.6267255659856433,
+      "recall": 0.4693961952026468,
+      "f1": 0.5367699219673682,
+      "pred_pos_rate": 0.34105461393596986,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.6800097554910325,
+      "roc_auc": 0.6923473041629915,
+      "collapsed": false
+    },
+    "metrics@calibrated": {
+      "threshold": 0.21011725068092346,
+      "precision": 0.503408840994062,
+      "recall": 0.9466501240694789,
+      "f1": 0.6572864321608041,
+      "pred_pos_rate": 0.8563088512241055,
+      "base_pos_rate": 0.4553672316384181,
+      "pr_auc": 0.6800097554910325,
+      "roc_auc": 0.6923473041629915,
+      "collapsed": false
+    },
+    "logit_diagnostics": {
+      "logit_pos_mean": -0.2761015034440323,
+      "logit_neg_mean": -0.12087880375246095,
+      "margin_mean": -0.15522269969157132,
+      "margin_std": 1.5909733011355358,
+      "is_constant": false,
+      "frac_predicts_pos@0.5": 0.3408662900188324
+    }
+  }
+]

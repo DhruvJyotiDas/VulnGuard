@@ -1,0 +1,33 @@
+{
+  "correlations": {
+    "mean_shift": {
+      "rho": 0.709,
+      "p": 0.0217
+    },
+    "ppr_diff": {
+      "rho": 0.709,
+      "p": 0.0217
+    },
+    "js_divergence": {
+      "rho": 0.612,
+      "p": 0.06
+    },
+    "entropy_diff": {
+      "rho": 0.588,
+      "p": 0.0739
+    },
+    "kl_divergence": {
+      "rho": 0.467,
+      "p": 0.1739
+    },
+    "ks_statistic": {
+      "rho": 0.261,
+      "p": 0.4671
+    }
+  },
+  "best_predictor": "mean_shift",
+  "best_rho": 0.709,
+  "best_p": 0.0217,
+  "n_folds": 10,
+  "interpretation": "Mean prediction shift between source and target predicts threshold transfer failure (rho=0.709, p<0.05). Computable without target labels."
+}

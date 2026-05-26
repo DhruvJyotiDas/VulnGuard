@@ -1,0 +1,114 @@
+{
+  "vanilla": {
+    "spec": {
+      "balance": false,
+      "w1": 1.0
+    },
+    "balanced": {
+      "threshold": 0.3661363422870636,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714,
+      "pred_pos_rate": 0.016666666666666666,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "collapsed": false
+    },
+    "imbalanced": {
+      "threshold": 0.3661363422870636,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714,
+      "pred_pos_rate": 0.016666666666666666,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "collapsed": false
+    }
+  },
+  "weight_only": {
+    "spec": {
+      "balance": false,
+      "w1": 30.0
+    },
+    "balanced": {
+      "threshold": 0.5202497839927673,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714,
+      "pred_pos_rate": 0.016666666666666666,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "collapsed": false
+    },
+    "imbalanced": {
+      "threshold": 0.5202497839927673,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714,
+      "pred_pos_rate": 0.016666666666666666,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "collapsed": false
+    }
+  },
+  "balance_only": {
+    "spec": {
+      "balance": true,
+      "w1": 1.0
+    },
+    "balanced": {
+      "threshold": 0.5366164445877075,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "pred_pos_rate": 0.0,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 0.4045166294560968,
+      "roc_auc": 0.6260869565217392,
+      "collapsed": true
+    },
+    "imbalanced": {
+      "threshold": 0.5366164445877075,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "pred_pos_rate": 0.0,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 0.3998079096045198,
+      "roc_auc": 0.6191304347826087,
+      "collapsed": true
+    }
+  },
+  "vulnguard": {
+    "spec": {
+      "balance": true,
+      "w1": 30.0
+    },
+    "balanced": {
+      "threshold": 0.5392258763313293,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "pred_pos_rate": 0.0,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 0.40887387387387386,
+      "roc_auc": 0.6008695652173912,
+      "collapsed": true
+    },
+    "imbalanced": {
+      "threshold": 0.5392258763313293,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "pred_pos_rate": 0.0,
+      "base_pos_rate": 0.041666666666666664,
+      "pr_auc": 0.35580996884735205,
+      "roc_auc": 0.5965217391304348,
+      "collapsed": true
+    }
+  }
+}

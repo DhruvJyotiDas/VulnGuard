@@ -1,0 +1,38 @@
+[
+  {
+    "threshold": 0.5366164445877075,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pred_pos_rate": 0.0,
+    "base_pos_rate": 0.041666666666666664,
+    "pr_auc": 0.3998079096045198,
+    "roc_auc": 0.6191304347826087,
+    "collapsed": true,
+    "w1": 1.0
+  },
+  {
+    "threshold": 0.5392258763313293,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pred_pos_rate": 0.0,
+    "base_pos_rate": 0.041666666666666664,
+    "pr_auc": 0.35580996884735205,
+    "roc_auc": 0.5965217391304348,
+    "collapsed": true,
+    "w1": 30.0
+  },
+  {
+    "threshold": 0.5390439033508301,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pred_pos_rate": 0.0,
+    "base_pos_rate": 0.041666666666666664,
+    "pr_auc": 0.3357407407407408,
+    "roc_auc": 0.5930434782608696,
+    "collapsed": true,
+    "w1": 100.0
+  }
+]
